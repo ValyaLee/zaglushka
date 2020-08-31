@@ -10,12 +10,17 @@ body {
  background-color: #303E5B;
 }
 
+*,
+*:after,
+*:before {box-sizing: border-box;
+}
+
 h1 {
  position: absolute;
  width: 1000px;
- height: 220px;
+ height: 180px;
  left: 350px;
- top: 100px;
+ top: 140px;
  margin: 10px;
  padding: 10px 10px;
  font-family: "Telegraf";
@@ -29,7 +34,7 @@ h2 {
  width: 409px;
  height: 45px;
  left: 20px;
- top: 500px;      
+ top: 600px;      
  margin: 10px;
  padding: 10px;
  font-family: "Telegraf";
@@ -37,4 +42,14 @@ h2 {
  font-size: 40px;
  color: #BDDA86;
  transform: rotate(-90deg);      
+}
+
+hr {
+ top:200px; 
+ margin-top: 140px;
+ margin-left: 0px;
+ margin-right: 0px;
+ background-color: #BDDA86;
+ border: none; 
+ height: 3px;     
 }
