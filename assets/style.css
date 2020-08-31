@@ -1,0 +1,40 @@
+@font-face {
+ font-family: "Telegraf";
+ src: url("fonts/Telegraf-UltraLight.woff2") format('woff2'),
+        url("fonts/Telegraf-UltraLight.woff") format('woff');
+ font-weight: 200;
+ font-style: normal;
+ font-display: swap;
+}
+body {
+ background-color: #303E5B;
+}
+
+h1 {
+ position: absolute;
+ width: 1000px;
+ height: 220px;
+ left: 350px;
+ top: 100px;
+ margin: 10px;
+ padding: 10px 10px;
+ font-family: "Telegraf";
+ color: #BDDA86;
+ font-size: 200px;
+ font-weight: 100;
+}
+
+h2 {
+ position: absolute;
+ width: 409px;
+ height: 45px;
+ left: 20px;
+ top: 500px;      
+ margin: 10px;
+ padding: 10px;
+ font-family: "Telegraf";
+ font-weight: 100;
+ font-size: 40px;
+ color: #BDDA86;
+ transform: rotate(-90deg);      
+}
