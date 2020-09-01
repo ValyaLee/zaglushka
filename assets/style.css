@@ -6,7 +6,9 @@
  font-style: normal;
  font-display: swap;
 }
-body {
+body {  
+ height: 100%;
+ min-height: 100%;
  background-color: #303E5B;
 }
 
@@ -34,7 +36,7 @@ h2 {
  width: 409px;
  height: 45px;
  left: 20px;
- top: 600px;      
+ top: 530px;      
  margin: 10px;
  padding: 10px;
  font-family: "Telegraf";
@@ -44,12 +46,29 @@ h2 {
  transform: rotate(-90deg);      
 }
 
-hr {
- top:200px; 
- margin-top: 140px;
- margin-left: 0px;
- margin-right: 0px;
+hr.new1  {
+ border: 1px solid  #BDDA86; 
+ margin-top:150px;
+}
+
+hr.new2 {
+ border: 1px solid  #BDDA86; 
+ margin-top:200px;   
+}
+ 
+.verticalline {
+ width:2px;
  background-color: #BDDA86;
- border: none; 
- height: 3px;     
+ position:absolute;
+ top:0;
+ bottom:0;
+ left:200px;
+}
+.verticalline2 {
+ width:2px;
+ background-color: #BDDA86;
+ position:absolute;
+ top:0;
+bottom:0;
+left:290px;
 }
